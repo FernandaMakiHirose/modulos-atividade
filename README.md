@@ -1,4 +1,19 @@
 # Trabalhando com Módulos em JavaScript
+## Atividade
+Esta atividade tem como objetivo que você veja **no console do seu navegador** como os módulos funcionam.
+
+1. Instale a extensão "Live Server" no seu VSCode;
+2. Crie um arquivo com uma estrutura HTML padrão;
+3. Crie dois arquivos `.js` ou `.mjs`, um chamado `funcoes` e outro chamado `main`;
+4. No arquivo `funcoes`:
+   1. Crie uma função chamada `mostraIdade`, que recebe `nome` e `idade` e retorna a string: `A idade de ${nome} é ${idade}`;
+   2. Siga o mesmo padrão para outras funções como `mostraCidade` e `mostraHobby`;
+   3. Exporte estas funções.
+5. No arquivo `main`:
+   1. Importe as funções do arquivo `funcoes`;
+   2. Faça a chamada de todas elas;
+6. Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.
+
 ## O que são módulos
 Módulos arquivos JavaScript que tem a capacidade de exportar e importar informações de outros arquivos do mesmo tipo.
 
@@ -37,6 +52,7 @@ Módulos arquivos JavaScript que tem a capacidade de exportar e importar informa
 ![Screenshot_10](https://user-images.githubusercontent.com/72028645/136435717-d08b1661-a5fd-49c6-8fe0-b0bad84be57b.png)
 
 ### Vinculando ao HTML
+
 Para fazer testes localmente (de um arquivo no seu computador), será necessário estar rodando um servidor. Isso pode ser feito utilizando a extensão “Live Server”, do VSCode.
 ![Screenshot_12](https://user-images.githubusercontent.com/72028645/136435876-4e5cdec7-bb94-44a6-8d20-bb13503add5e.png)
 
@@ -46,19 +62,3 @@ Para fazer testes localmente (de um arquivo no seu computador), será necessári
 - Para testes locais, é necessário utilizar um servidor
 - Ao importar, sempre lembre da extensão (.js, .mjs)
 - Ao importar, sempre utilize “./” como ponto de partida
-
-
-## Atividade
-Esta atividade tem como objetivo que você veja **no console do seu navegador** como os módulos funcionam.
-
-1. Instale a extensão "Live Server" no seu VSCode;
-2. Crie um arquivo com uma estrutura HTML padrão;
-3. Crie dois arquivos `.js` ou `.mjs`, um chamado `funcoes` e outro chamado `main`;
-4. No arquivo `funcoes`:
-   1. Crie uma função chamada `mostraIdade`, que recebe `nome` e `idade` e retorna a string: `A idade de ${nome} é ${idade}`;
-   2. Siga o mesmo padrão para outras funções como `mostraCidade` e `mostraHobby`;
-   3. Exporte estas funções.
-5. No arquivo `main`:
-   1. Importe as funções do arquivo `funcoes`;
-   2. Faça a chamada de todas elas;
-6. Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.
