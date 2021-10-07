@@ -26,11 +26,11 @@ Módulos arquivos JavaScript que tem a capacidade de exportar e importar informa
 - É quando você quer exportar mais de um arquivo
 1. Exemplo <br>
 
-![Screenshot_3](https://user-images.githubusercontent.com/72028645/136434777-6243b10f-e7b7-452d-85ec-ba1b4a62e648.png)
+![Screenshot_14](https://user-images.githubusercontent.com/72028645/136436287-da4ad893-408b-455a-bbe7-ae5dff73a454.png)
 
 2. Exemplo <br>
 
-![Screenshot_4](https://user-images.githubusercontent.com/72028645/136434789-3a3eff1c-07c4-4804-b278-ef58f7794f20.png)
+![Screenshot_15](https://user-images.githubusercontent.com/72028645/136436403-e4c014fe-9934-49d8-9a44-920ca38dc072.png)
 
 ## Default Exports
 - Só pode haver um por arquivo
