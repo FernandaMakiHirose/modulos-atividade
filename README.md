@@ -1,4 +1,8 @@
 # Trabalhando com Módulos em JavaScript
+## Requisitos
+- Terminal
+- IDE
+
 ## Atividade
 Esta atividade tem como objetivo que você veja **no console do seu navegador** como os módulos funcionam.
 
@@ -13,6 +17,8 @@ Esta atividade tem como objetivo que você veja **no console do seu navegador** 
    1. Importe as funções do arquivo `funcoes`;
    2. Faça a chamada de todas elas;
 6. Utilizando a extensão "Live Server", abra o seu navegador e veja no console que as informações foram logadas corretamente.
+7. Ou entre no projeto no terminal e digite:
+>node main.mjs
 
 ## O que são módulos
 Módulos arquivos JavaScript que tem a capacidade de exportar e importar informações de outros arquivos do mesmo tipo.
